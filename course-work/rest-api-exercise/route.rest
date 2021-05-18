@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/60a3e1d0497c885ce6ca023f
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "Web dev"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6a3e1d0497c885ce6ca023f
+
+###
+
+PATCH http://localhost:3000/subscribers/60a3e42c516212639826735d
+Content-Type: application/json
+
+{
+    "name": "gegwg"
+}
